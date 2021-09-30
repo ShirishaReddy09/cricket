@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Cricket</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="cricket.css">
+    </head>
+    <body>
+        <h3 id="h">Cricket 10</h3>
+        <hr>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    TEAM 1 SCORE<br>
+                    <p id="total1">0</p>
+                    <button id="hit1" >HIT 1</button>
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    TIMER<br>
+                    <p><b id="timer">60</b></p><br>
+                    <p id="team">Team1's turn</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    TEAM 2 SCORE<br>
+                    <p id="total2">0</p>
+                    <button id="hit2">HIT 2</button>
+                </div>
+            </div>
+            <hr>
+            <div id="result"><button>GENERATE RESULT</button></div>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <p>TEAM  1 SCORE CARD</p>
+                    <table id="t1"></table>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <br>
+                    <br>
+                    MATCH WON BY<br>
+                    <p id="win"></p>
+                    <hr>
+                    MAN OF THE MATCH<br>
+                    <p id="man"></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <p>TEAM  2 SCORE CARD</p>
+                    <table id="t2"></table>
+                </div>
+            </div>
+            <script src="cricket.js"></script>
+    </body>
+</html>
